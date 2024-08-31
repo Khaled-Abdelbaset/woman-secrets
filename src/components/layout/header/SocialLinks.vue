@@ -14,10 +14,14 @@ import facebookSrc from "../../../assets/images/facebook.svg";
 import twitterSrc from "../../../assets/images/twitter.svg";
 import instagramSrc from "../../../assets/images/instagram.svg";
 
+const props = defineProps({
+  socials: Object,
+})
+
 const socialItems = [
-  { src: twitterSrc, label: "Twitter", href: "https://www.twitter.com" },
-  { src: instagramSrc, label: "Instagram", href: "https://www.instagram.com" },
-  { src: facebookSrc, label: "Facebook", href: "https://www.facebook.com" },
+  { src: twitterSrc, label: "Twitter", href: props.socials?.twitter || "https://www.twitter.com" },
+  { src: instagramSrc, label: "Instagram", href: props.socials?.instagram || "https://www.instagram.com" },
+  { src: facebookSrc, label: "Facebook", href: props.socials?.facebook || "https://www.facebook.com" },
 ];
 </script>
 
