@@ -23,10 +23,6 @@ const languages = ref([
 ]);
 const languageSelected = ref(languages.value[0].value);
 
-watch(languageSelected, ()=> {
-  console.log(languageSelected.value)
-})
-
 </script>
 
 <style></style>

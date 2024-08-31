@@ -19,7 +19,6 @@ const brandsData = ref({});
 
 onMounted(() => {
   brandsData.value = useTestingStore().brands;
-  console.log(brandsData.value);
 });
 </script>
 

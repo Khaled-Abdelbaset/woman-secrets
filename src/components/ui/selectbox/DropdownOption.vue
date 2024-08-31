@@ -50,7 +50,7 @@ li:hover {
 }
 
 li.selected {
-  color: var(--primary-color);
+  color: var(--primary-text-color);
   background-color: var(--primary-opacity-color);
 }
 </style>

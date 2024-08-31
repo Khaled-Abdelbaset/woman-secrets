@@ -72,7 +72,6 @@ const handleSubmit = async () => {
 
 onMounted(() => {
   footerData.value = useTestingStore().footer;
-  console.log(footerData.value);
 });
 </script>
 

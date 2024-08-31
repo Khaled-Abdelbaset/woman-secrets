@@ -39,11 +39,11 @@ li a {
   font-size: .9rem;
 }
 li a:hover {
-  color: var(--primary-color);
+  color: var(--primary-text-color);
 }
 
 li a.active {
-  color: var(--primary-color);
+  color: var(--primary-text-color);
   border-bottom: 1px solid var(--primary-color);
 }
 </style>
