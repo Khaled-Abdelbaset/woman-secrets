@@ -4,7 +4,7 @@
       <!-- Information Section -->
       <div class="col-xl-2 col-lg-2 col-sm-5 my-3">
         <h5>Informations</h5>
-        <ul class="list-unstyled">
+        <ul class="info-list">
           <li><a href="#">Home</a></li>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Our Service</a></li>
@@ -15,7 +15,7 @@
       <!-- Support Section -->
       <div class="col-xl-2 col-lg-2 col-sm-5 my-3">
         <h5>Support</h5>
-        <ul class="list-unstyled">
+        <ul class="support-list">
           <li><a href="#">FAQs</a></li>
           <li><a href="#">Terms & Conditions</a></li>
           <li><a href="#">Privacy policy</a></li>
@@ -30,7 +30,9 @@
       <!-- Contacts Section -->
       <div class="col-xl-2 col-lg-3 col-sm-5 my-3">
         <h5>Contacts</h5>
-        <p><a href="tel:+96644467356">{{ footerData.phone }}</a></p>
+        <p>
+          <a href="tel:+96644467356">{{ footerData.phone }}</a>
+        </p>
         <p>
           <a href="mailto:support@womansecrets.com">{{ footerData.email }}</a>
         </p>
@@ -41,7 +43,7 @@
       <div class="subscribe col-xl-3 col-lg-9 col-sm-5 my-3">
         <h5>Subscribe For More</h5>
         <form class="" @submit.prevent="handleSubmit">
-          <input type="email" v-model="email" placeholder="Enter your mail" />
+          <input type="email" v-model="email" placeholder="Enter your email" />
           <button type="submit" class="btn-subscribe">SEND</button>
         </form>
       </div>
