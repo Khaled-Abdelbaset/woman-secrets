@@ -1,5 +1,5 @@
 <template>
-  <footer class=" ">
+  <footer id="contact">
     <div class="row g-0 contact p-3 justify-content-between">
       <!-- Information Section -->
       <div class="col-xl-2 col-lg-2 col-sm-5 my-3">

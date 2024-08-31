@@ -19,7 +19,7 @@ import { ref } from 'vue';
 const navItems = [
   { name: 'home', label: 'Home', href: '#home' },
   { name: 'about', label: 'About Us', href: '#about' },
-  { name: 'services', label: 'Our Services', href: '#services' },
+  { name: 'brands', label: 'Our Services', href: '#services' },
   { name: 'brands', label: 'Partner Brands', href: '#brands' },
   { name: 'contact', label: 'Contact Us', href: '#contact' }
 ];
